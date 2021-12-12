@@ -10,7 +10,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install needed 
 ```bash
 pip install -r requirements.txt
 ```
-btw, i am using **python 3.9.7**, if you are using older or something, please notice you may have problems with it!
+btw, i am using **python 3.9.7**, if you are using older version or something, please notice you may have problems with it!
 
 
 ## Usage
@@ -26,5 +26,5 @@ you can change default settings like **path** or **language [EN/PL]**
 
 ## Contributing
 
-Pull requests are welcome. If you have any problems, please open an issue first, I can do something for it, thanks!
+Pull requests are welcome. If you have any problems, please open an issue first, I'll try to fix it asap, thanks!
 
