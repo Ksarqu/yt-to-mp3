@@ -51,7 +51,7 @@ def collect_urls():
 def download():
     for url in urls:
         video_info = youtube_dl.YoutubeDL().extract_info(url=url, download=False)
-        filename = re.sub('[#<$+%>!`&*|{}@:/?=]', '', video_info['title'])[:200] + ".mp3"
+        filename = re.sub('[#<$+%>!"`&*|{}@:/?=]', '', video_info['title'])[:200] + ".mp3"
         options = {
             'format': 'bestaudio/best',
             'keepvideo': False,
